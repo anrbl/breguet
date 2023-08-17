@@ -557,6 +557,7 @@ section Collection
     color: var(--c9);
 }
 
+
 .main_collection .colist_slide figure {
     position: relative;
     display: flex;
@@ -566,6 +567,7 @@ section Collection
     filter: grayscale(1);
     transition: 0.5s;
     background: var(--cwb);
+    cursor: pointer;
 }
 
 .main_collection .colist_slide figure::after {

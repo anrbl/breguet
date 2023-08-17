@@ -40,6 +40,7 @@ $(function () {
         asNavFor: '.collection_slide',
         slidesToShow: 4,
         slidesToScroll: 1,
+        focusOnSelect: true,
     });
     $('.main_collection .arrows .left').on('click', function () {
         $('.collection_slide').slick('slickPrev');
